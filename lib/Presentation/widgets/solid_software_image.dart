@@ -20,7 +20,7 @@ class SolidSoftwareImage extends StatelessWidget {
         borderRadius: BorderRadius.circular(
           SolidSoftwareSize().borderRadius80,
         ),
-        child: Image.asset("assets/iamges/solid.jfif"),
+        child: Image.asset("assets/images/solid.jfif"),
       ),
     );
   }
