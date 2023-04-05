@@ -33,7 +33,7 @@ class SolidSoftwareGuideWidget extends StatelessWidget {
             SizedBox(width: 10),
             Center(
               child: Text(
-                "Press the anywhere 🚀",
+                "Press anywhere, get random color 🚀",
                 style: TextStyle(
                   color: Colors.white,
                 ),
