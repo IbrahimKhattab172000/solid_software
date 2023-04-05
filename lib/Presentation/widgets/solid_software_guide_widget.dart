@@ -22,15 +22,15 @@ class SolidSoftwareGuideWidget extends StatelessWidget {
           children: [
             Center(
               child: Text(
-                "Hi! Solid Software",
+                "Hi there!",
                 style: TextStyle(
                   color: Colors.white,
                 ),
               ),
             ),
-            SizedBox(width: 10),
+            SizedBox(width: 5),
             SolidSoftwareImage(height: 30, width: 30),
-            SizedBox(width: 10),
+            SizedBox(width: 5),
             Center(
               child: Text(
                 "Press anywhere, get random color 🚀",
