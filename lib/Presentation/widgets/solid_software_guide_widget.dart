@@ -33,7 +33,7 @@ class SolidSoftwareGuideWidget extends StatelessWidget {
             SizedBox(width: 10),
             Center(
               child: Text(
-                "Press the image below 🚀",
+                "Press the anywhere 🚀",
                 style: TextStyle(
                   color: Colors.white,
                 ),

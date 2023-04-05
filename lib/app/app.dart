@@ -33,15 +33,20 @@ class _HomeState extends State<Home> {
       builder: (context, state) {
         return Scaffold(
           backgroundColor: (state as ColorsCurrentColor).color,
-          body: const Center(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                SolidSoftwareGuideWidget(),
-                SizedBox(height: 20),
-                SolidSoftwareColorWidget(),
-              ],
+          body: InkWell(
+            onTap: () {
+              context.read<ColorsHandler>().generateRandomColor();
+            },
+            child: const Center(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  SolidSoftwareGuideWidget(),
+                  SizedBox(height: 20),
+                  SolidSoftwareColorWidget(),
+                ],
+              ),
             ),
           ),
         );
